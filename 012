@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+<meta charset="UTF-8">
+<title>Bài thơ Đây Mùa Thu Tới</title>
+<style>
+  /* Cấu trúc nền kiểu giấy cũ */
+  body {
+    background-color: #f4ece1; /* Màu giấy kem */
+    background-image: radial-gradient(#e5d8c5 1px, transparent 1px);
+    background-size: 20px 20px; /* Tạo hiệu ứng chấm nhẹ trên giấy */
+    font-family: 'Times New Roman', Times, serif; /* Font chữ có chân kiểu sách */
+    line-height: 1.6;
+    color: #4e342e; /* Màu nâu đậm thay vì đen */
+    margin: 0;
+    padding: 50px 20px;
+    text-align: center;
+  }
+
+  /* Tiêu đề chính tinh tế hơn */
+  .box-tieude {
+    border-top: 2px solid #a1887f;
+    border-bottom: 2px solid #a1887f;
+    display: inline-block;
+    padding: 10px 40px;
+    margin-bottom: 30px;
+  }
+
+  h1 { 
+    font-size: 1.8em; 
+    color: #795548; 
+    margin: 0; 
+    letter-spacing: 5px; 
+  }
+
+  .intro-text {
+    max-width: 600px;
+    margin: 0 auto 50px auto;
+    font-size: 1.1em;
+    font-style: italic;
+    color: #6d4c41;
+  }
+
+  /* Khung chứa bài thơ kiểu trang sách */
+  .giay-tho {
+    background: #fffdfa;
+    max-width: 500px;
+    margin: 0 auto;
+    padding: 50px;
+    box-shadow: 5px 5px 15px rgba(0,0,0,0.05); /* Đổ bóng nhẹ */
+    border: 1px solid #d7ccc8;
+    position: relative;
+  }
+
+  /* Trang trí chữ BÀI THƠ kiểu cổ điển */
+  .chu-baitho {
+    color: #1565c0; /* Xanh dương đậm và sang hơn */
+    font-weight: bold;
+    font-size: 0.9em;
+    letter-spacing: 3px;
+    display: block;
+    margin-bottom: 5px;
+  }
+
+  h2 {
+    font-size: 1.6em;
+    color: #3e2723;
+    margin: 0 0 40px 0;
+    font-family: 'Georgia', serif;
+  }
+
+  /* Nội dung bài thơ */
+  .bai-tho-content {
+    display: inline-block;
+    text-align: left;
+    color: #a30000; /* Màu đỏ sẫm kiểu mực cũ */
+    font-size: 1.25em;
+  }
+
+  .kho-tho {
+    margin-bottom: 30px;
+  }
+
+  .tac-gia {
+    margin-top: 40px;
+    text-align: right;
+    font-weight: bold;
+    color: #4e342e;
+    border-top: 1px solid #eee;
+    padding-top: 10px;
+  }
+
+</style>
+</head>
+<body>
+
+  <div class="box-tieude">
+    <h1>LỊCH SỬ CSS</h1>
+  </div>
+  
+  <div class="intro-text">
+    Ý tưởng của CSS do kĩ sư <strong>Hakon Wium Lie</strong> người Na Uy, thiết lập năm 1994 trong khi làm việc với Tim Berners-Lee tại viện hạt nhân CERN.
+  </div>
+
+  <div class="giay-tho">
+    <span class="chu-baitho">BÀI THƠ</span>
+    <h2>ĐÂY MÙA THU TỚI</h2>
+
+    <div class="bai-tho-content">
+      <div class="kho-tho">
+        Rặng liễu đìu hiu đứng chịu tang<br>
+        Tóc buồn buông xuống lệ ngàn hàng<br>
+        Đây mùa thu tới, mùa thu tới<br>
+        Với áo mơ phai dệt lá vàng
+      </div>
+
+      <div class="kho-tho">
+        Hơn một loài hoa đã rụng cành<br>
+        Trong vườn sắc đỏ rũa màu xanh<br>
+        Những luồng run rẩy rung rinh lá<br>
+        Đôi nhánh khô gầy xương mỏng manh
+      </div>
+
+      <div class="kho-tho">
+        Thỉnh thoảng nàng trăng tự ngẩn ngơ<br>
+        Non xa khởi sự nhạt sương mờ<br>
+        Đã nghe rét mướt luồn trong gió<br>
+        Đã vắng người sang những chuyến đò
+      </div>
+
+      <div class="kho-tho">
+        Mây vẩn từng không, chim bay đi<br>
+        Khí trời u uất hận chia ly<br>
+        Ít nhiều thiếu nữ buồn không nói<br>
+        Tựa cửa nhìn xa nghĩ ngợi gì.
+      </div>
+
+      <div class="tac-gia">— XUÂN DIỆU —</div>
+    </div>
+  </div>
+
+</body>
+</html>
